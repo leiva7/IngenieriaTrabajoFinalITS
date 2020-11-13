@@ -227,9 +227,6 @@ def diasHastaFecha(day1, month1, year1, day2, month2, year2): #expresar primera 
             total = day2 - day1
             return total
 
-print("No debería haber 15: ",diasHastaFecha(2, 11, 2020, 11, 11, 2020))
-print("Debería haber +15: ",diasHastaFecha(19, 3, 2020, 11, 11, 2020))
-alguien = Consultante(1, "Gladys", "Schein", "20/10/80", 40 , "femenino", "desocupada", 8000)
-print(alguien.describir())
-alguien.hacerConsulta("Quiero saber cómo tener un abogado gratuito por cuota alimentaria", "pendiente", 12, 3, 2020)
-print(alguien.consultasRealizadas[0].deboReportarme())
+class Herramientas():
+    def calculadoraDeDiasEntreFechas():
+        pass
