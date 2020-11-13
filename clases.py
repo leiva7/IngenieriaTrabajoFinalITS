@@ -227,6 +227,3 @@ def diasHastaFecha(day1, month1, year1, day2, month2, year2): #expresar primera 
             total = day2 - day1
             return total
 
-class Herramientas():
-    def calculadoraDeDiasEntreFechas():
-        pass
